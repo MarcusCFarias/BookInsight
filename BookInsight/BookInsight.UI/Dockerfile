@@ -14,7 +14,7 @@ FROM nginx:alpine
 COPY --from=build /app/publish/wwwroot /usr/share/nginx/html
 
 # Expor a porta padrão do Nginx
-EXPOSE 5000
+EXPOSE 80
 
 # Iniciar o Nginx
 CMD ["nginx", "-g", "daemon off;"]

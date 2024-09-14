@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  bookinsight.ui:
+    container_name: blazor
+    image: bookinsight.ui
+    build:
+      context: .
+      dockerfile: BookInsight.UI/Dockerfile
+    ports:
+      - "5000:80"

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookInsight.UI", "BookInsight.UI\BookInsight.UI.csproj", "{B46A02CD-ADC0-43FA-B714-CAB252FBF7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.UI", "BookInsight.UI\BookInsight.UI.csproj", "{B46A02CD-ADC0-43FA-B714-CAB252FBF7C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7508B4CB-114B-4C55-8F04-22BCB113CCA9}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,7 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookInsight.API", "BookInsight.API\BookInsight.API.csproj", "{8BBD5496-4FDE-4617-866F-FFC8F0973401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.API", "BookInsight.API\BookInsight.API.csproj", "{8BBD5496-4FDE-4617-866F-FFC8F0973401}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.Application", "BookInsight.Application\BookInsight.Application.csproj", "{F9D3C684-185B-4D17-8183-B5FB5B6BC6F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.Domain", "BookInsight.Domain\BookInsight.Domain.csproj", "{679669ED-DAEF-4482-80E9-D216517055DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.Infrastructure", "BookInsight.Infrastructure\BookInsight.Infrastructure.csproj", "{07E63E0E-1059-4895-BCBD-CBBDE434927D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.IntegrationTests", "BookInsight.IntegrationTests\BookInsight.IntegrationTests.csproj", "{00C9EC36-2DC7-4F64-A606-B907C574360F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInsight.UnitTests", "BookInsight.UnitTests\BookInsight.UnitTests.csproj", "{92CADEA9-DB9D-444B-9A93-4DEA9A8557B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{8BBD5496-4FDE-4617-866F-FFC8F0973401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BBD5496-4FDE-4617-866F-FFC8F0973401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BBD5496-4FDE-4617-866F-FFC8F0973401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D3C684-185B-4D17-8183-B5FB5B6BC6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D3C684-185B-4D17-8183-B5FB5B6BC6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D3C684-185B-4D17-8183-B5FB5B6BC6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D3C684-185B-4D17-8183-B5FB5B6BC6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679669ED-DAEF-4482-80E9-D216517055DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679669ED-DAEF-4482-80E9-D216517055DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679669ED-DAEF-4482-80E9-D216517055DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679669ED-DAEF-4482-80E9-D216517055DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E63E0E-1059-4895-BCBD-CBBDE434927D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E63E0E-1059-4895-BCBD-CBBDE434927D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E63E0E-1059-4895-BCBD-CBBDE434927D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E63E0E-1059-4895-BCBD-CBBDE434927D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C9EC36-2DC7-4F64-A606-B907C574360F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C9EC36-2DC7-4F64-A606-B907C574360F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C9EC36-2DC7-4F64-A606-B907C574360F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C9EC36-2DC7-4F64-A606-B907C574360F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CADEA9-DB9D-444B-9A93-4DEA9A8557B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CADEA9-DB9D-444B-9A93-4DEA9A8557B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CADEA9-DB9D-444B-9A93-4DEA9A8557B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CADEA9-DB9D-444B-9A93-4DEA9A8557B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
